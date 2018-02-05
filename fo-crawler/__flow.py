@@ -54,5 +54,4 @@ def main(saverfp,loggerfp,urllist):
             flush()
 
         save_saver(saverfp,iid+1)
-    stop_worker()
     logger.shutdown()
