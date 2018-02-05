@@ -16,4 +16,6 @@ def fetch_id (url):
     )
     with request.urlopen(req) as f:
         bytes = f.read()
-        return re.findall(pattern,bytes.decode())[0].split(',')[1].split('"')[1]
+        id =  re.findall(pattern,bytes.decode())[0].split(',')[1].split('"')[1]
+        print(id)
+        return id

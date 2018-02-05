@@ -1,7 +1,5 @@
 # Dowload queue
 
-import threading
-import queue
 from urllib import request
 import os
 import sys
@@ -13,45 +11,20 @@ from urllib.parse import (
 import contextlib
 import tempfile
 import urllib.error
+import time
 
 __is_init = False
 
 __que = None
 __t = None
+__end = False
 
-def init_queue(maxsize):
-    global __is_init
-    global __que
-    global __t
-    if __is_init :
-        print('Launched')
-        return None
-    else:
-        __que = queue.Queue(maxsize=maxsize)
-        __t = threading.Thread(target=download_worker, name="Download Worker")
-        __is_init = True
-        __t.start()
-        return (lambda:__t.join())
 
-def download_worker():
-    global __is_init
-    while __is_init:
-        url = __que.get()
-        print("\n" + url)
-        fn = os.path.basename(url)
-        request.urlretrieve(url,fn,lambda bn,bs,ts:display_processing(fn,bn,bs,ts))
+def download_video(url):
+    print("\n" + url)
+    fn = os.path.basename(url)
+    request.urlretrieve(url,fn,lambda bn,bs,ts:display_processing(fn,bn,bs,ts))
 
-def put_queue(items):
-    global __is_init
-    if __is_init:
-        for item in items:
-            __que.put(item)
-    else:
-        raise ValueError('init first')
-
-def stop_worker():
-    __is_init = False
-    __t.join()
 
 def display_processing(filename,blocknum,blocksize,totalsize):
     sys.stderr.write("%s: total=%u,downloaded=%u=%u*%u\r" % (filename, totalsize, blocknum * blocksize,  blocknum,  blocksize))
