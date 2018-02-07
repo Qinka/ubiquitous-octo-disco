@@ -6,6 +6,8 @@ from .__fetch_urls import *
 from .__download_queue import *
 from .__saver import *
 import logging
+from urllib.error import URLError, HTTPError
+
 
 def main(saverfp,loggerfp,urllist):
     lines = None
@@ -21,12 +23,7 @@ def main(saverfp,loggerfp,urllist):
     logger.addHandler(file_handler)
     logger.addHandler(stream_handler)
 
-    def flush():
-        file_handler.flush()
-        stream_handler.flush()
-
-    logger.info('Logger start!')
-    flush()
+    print('Logger start!')
 
     with open(urllist, 'r') as f:
         lines = f.readlines()
@@ -34,24 +31,24 @@ def main(saverfp,loggerfp,urllist):
     ibeg = load_saver(saverfp)
 
     for iid in range(ibeg,len(lines)):
-        logger.info('line %d' % iid)
-        flush()
+        try:
+            print('line %d' % iid)
 
-        url = lines[iid].split('\n')[0]
-        logger.info('url %s' % url)
-        flush()
+            url = lines[iid].split('\n')[0]
+            print('url %s' % url)
 
-        vid = fetch_id(url)
-        logger.info('id %s' % vid)
-        flush()
+            vid = fetch_id(url)
+            print('id %s' % vid)
 
-        info = fetch_info(vid)
+            info = fetch_info(vid)
 
-        items = fetch_video_urls(info)
-        for vurl in items:
-            download_video(vurl)
-            logger.info('downloaded %s' % vurl)
-            flush()
+            items = fetch_video_urls(info)
+            for vurl in items:
+                download_video(vurl)
+                print('downloaded %s' % vurl)
 
-        save_saver(saverfp,iid+1)
-    logger.shutdown()
+        except Exception as e:
+            print('error %d' % url)
+            print(e)
+        finally:
+            save_saver(saverfp,iid+1)
