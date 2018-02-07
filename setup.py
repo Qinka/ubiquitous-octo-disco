@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'fo-crawler',
-    version = '0.1.1.4',
+    version = '0.1.1.7',
     keywords = ('cctv', 'crawler', 'focus on'),
     description = 'Crawler to fetch focus on(CCTV)',
     license = 'GPLv3',

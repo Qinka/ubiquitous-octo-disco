@@ -48,7 +48,7 @@ def main(saverfp,loggerfp,urllist):
                 print('downloaded %s' % vurl)
 
         except Exception as e:
-            print('error %d' % url)
+            print('error %s' % url)
             print(e)
         finally:
             save_saver(saverfp,iid+1)
