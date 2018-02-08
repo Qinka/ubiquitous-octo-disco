@@ -8,6 +8,18 @@ from .__saver import *
 import logging
 from urllib.error import URLError, HTTPError
 
+def download_videos(url):
+    print('url %s' % url)
+
+    vid = fetch_id(url)
+    print('id %s' % vid)
+
+    info = fetch_info(vid)
+
+    items = fetch_video_urls(info)
+    for vurl in items:
+        download_video(vurl)
+        print('downloaded %s' % vurl)
 
 def main(saverfp,loggerfp,urllist):
     lines = None
@@ -35,17 +47,7 @@ def main(saverfp,loggerfp,urllist):
             print('line %d' % iid)
 
             url = lines[iid].split('\n')[0]
-            print('url %s' % url)
-
-            vid = fetch_id(url)
-            print('id %s' % vid)
-
-            info = fetch_info(vid)
-
-            items = fetch_video_urls(info)
-            for vurl in items:
-                download_video(vurl)
-                print('downloaded %s' % vurl)
+            download_videos(url)
 
         except Exception as e:
             print('error %s' % url)

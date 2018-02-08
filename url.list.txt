@@ -732,7 +732,6 @@ http://tv.cctv.com/2016/02/06/VIDEXxeJClj50lpLMGWiKHFr160206.shtml
 http://tv.cctv.com/2016/03/19/VIDE0JIgAmPthe7dnSLcSd6g160319.shtml
 http://tv.cctv.com/2016/03/17/VIDEIcvzf1p7iUwTl3KBnO1i160317.shtml
 http://tv.cctv.com/2016/02/05/VIDEFCv6Xedef0XCuT3xD9NC160205.shtml
-
 http://news.cntv.cn/2016/01/28/VIDEFhTL0WKZHj3Z0EhSGG2p160128.shtml
 http://news.cntv.cn/2016/01/22/VIDEZ7nhqlabI8mb4h7ScnL6160122.shtml
 http://news.cntv.cn/2016/01/21/VIDEjsFKAu1kq0K372XS6Ok8160121.shtml
@@ -747,13 +746,17 @@ http://news.cntv.cn/2016/01/25/VIDEbFWId7m74uJzKY7T8wgK160125.shtml
 http://news.cntv.cn/2016/01/24/VIDEIDsOY5vv0nHMnaiBQli1160124.shtml
 http://news.cntv.cn/2016/01/23/VIDEdvqjHIW3O51oY2aWRj8y160123.shtml
 http://news.cntv.cn/2016/01/19/VIDEi7XPMkoS0oF959AnTHc4160119.shtml
-http://tv.cntv.cn/video/C10318/83b1a65f6fbc48b7a82594f99205a82b
 http://news.cntv.cn/2016/01/17/VIDEIheB4LzZloLcYMnDrxd2160117.shtml
 http://news.cntv.cn/2016/01/14/VIDEJHWTLH5ZJTyRITA9TSFD160114.shtml
 http://news.cntv.cn/2016/01/13/VIDETDlKjf8I8a52FLb5QfQr160113.shtml
+http://tv.cctv.com/2016/12/11/VIDEWBHEiilFM1DnMM1hXUC1161211.shtml
+http://tv.cctv.com/2016/10/01/VIDEXEZJfbCzsDpXTf546mnL161001.shtml
+
+http://tv.cntv.cn/video/C10318/83b1a65f6fbc48b7a82594f99205a82b
 http://tv.cntv.cn/video/C10318/3bd9db629a07435cb25a11e9903177ac
 http://tv.cntv.cn/video/C10318/8c07adc5c1254e19be749f8de5e220e3
 http://tv.cntv.cn/video/C10318/4ccc4cb1511c4af088875718bf3aabb9
+
 http://tv.cntv.cn/video/C10318/297b674a89e94f12a74a49faf3f32157
 http://tv.cntv.cn/video/C10318/b98a8fbaef404b3ea64576670b043989
 http://tv.cntv.cn/video/C10318/abf0f6802dda4a25abbe52ae0567da72
@@ -785,7 +788,6 @@ http://tv.cntv.cn/video/C10318/d20ec42d2ca3444ba64cce9778f77255
 http://tv.cntv.cn/video/C10318/9f58dd221dae4019b3d1fbe70ecb30ab
 http://tv.cntv.cn/video/C10318/94a4673d457a40d48ee1816ed948f610
 http://tv.cntv.cn/video/C10318/e20b7a0c8c514fe4873d6c5febe3ea2b
-http://tv.cctv.com/2016/12/11/VIDEWBHEiilFM1DnMM1hXUC1161211.shtml
 http://tv.cntv.cn/video/C10318/7d3b84d82a58422f84a2a9a6b3b5d28a
 http://tv.cntv.cn/video/C10318/4883ec87fafa48c7b54fe9653ee0ef26
 http://tv.cntv.cn/video/C10318/b0935508f3da427faf5ce535b098685d
@@ -940,7 +942,6 @@ http://tv.cntv.cn/video/C10318/4585c5cd40e148ba8fcdcdf931b9070e
 http://tv.cntv.cn/video/C10318/6fa4a529336b4b5084c9b0621b8a7f53
 http://tv.cntv.cn/video/C10318/128457e96b394146b0d44dba87bec0db
 http://tv.cntv.cn/video/C10318/48db79c213e64544986bd02f0bfc3df5
-http://tv.cctv.com/2016/10/01/VIDEXEZJfbCzsDpXTf546mnL161001.shtml
 http://tv.cntv.cn/video/C10318/62b6e162649245d582e94e1b13df39c0
 http://tv.cntv.cn/video/C10318/6f98fbb98c3e4070b3ed6f94e403a204
 http://tv.cntv.cn/video/C10318/0d9b6cb9dc5649aa93e20c8bbcebede4
@@ -962,11 +963,15 @@ http://tv.cntv.cn/video/C10318/5a82fd8680b84014a0198738196c0e0a
 http://tv.cntv.cn/video/C10318/ab8dd17b58bb426ba15a5ab7fc3127aa
 http://tv.cntv.cn/video/C10318/60ccec15254c4433aca90738bf8e0231
 http://tv.cntv.cn/video/C10318/67ede5ecf3994d7d9ad8a41d57876ec1
-http://tv.cntv.cn/video/C10318/4deb87ca1dea405a8766f4520ae13e3b
+
+# http://tv.cntv.cn/video/C10318/4deb87ca1dea405a8766f4520ae13e3b
+
 http://tv.cntv.cn/video/C10318/635ee24ec1f64a28b7eeabd07f7900ab
 http://tv.cntv.cn/video/C10318/628c8fd7d5734d47bbd399d42861d34d
-http://tv.cntv.cn/video/C10318/cda7ca837eb3433bab53985b4dad3db3
-http://tv.cntv.cn/video/C10318/beec429669164b1fb7cdc54a91de0ae2
+
+# http://tv.cntv.cn/video/C10318/cda7ca837eb3433bab53985b4dad3db3
+# http://tv.cntv.cn/video/C10318/beec429669164b1fb7cdc54a91de0ae2
+
 http://tv.cntv.cn/video/C10318/b4fcf77662bf4434aaea074c8f4bcaef
 http://tv.cntv.cn/video/C10318/63e387e0cebf4a9e940b7dc85b5483f4
 http://tv.cntv.cn/video/C10318/422888e3907b4d51a40800f4790157d2
@@ -975,7 +980,9 @@ http://tv.cntv.cn/video/C10318/ee310e558cdf41e798dd43211f39f519
 http://tv.cntv.cn/video/C10318/e767e56d68c842b2a2cc4456d08d8e82
 http://tv.cntv.cn/video/C10318/0beef9305a394304b14b0bf8ce9f5b10
 http://tv.cntv.cn/video/C10318/e9177f73992c4339a2942b7147e890d6
-http://tv.cntv.cn/video/C10318/f5edef19e8804a1d87fe68dc1a8afa7e
+
+# http://tv.cntv.cn/video/C10318/f5edef19e8804a1d87fe68dc1a8afa7e
+
 http://tv.cntv.cn/video/C10318/53048f2a3b684f1981fbfbdbe321dbe6
 http://tv.cntv.cn/video/C10318/10ed5baf4a9a4f6c9110cef5f999c0ba
 http://tv.cntv.cn/video/C10318/0abbf7d39a4d417ca327f284d4ec5170

@@ -4,7 +4,9 @@ from urllib import request
 import re
 
 
-pattern = r'"videoCenterId"\,"[0-9a-f]+"'
+pattern1 = r'"videoCenterId"\,[ \t\n\x0B\f\r]*"[0-9a-f]+"'
+pattern2 = r'guid[ \t\n\x0B\f\r]*=[ \t\n\x0B\f\r]"[0-9a-f]+"'
+
 
 
 def fetch_id (url):
@@ -15,7 +17,13 @@ def fetch_id (url):
                           }
     )
     with request.urlopen(req) as f:
-        bytes = f.read()
-        id =  re.findall(pattern,bytes.decode())[0].split(',')[1].split('"')[1]
+        text = f.read().decode()
+        items = re.findall(pattern1,text)
+        id = None
+        if len(items) == 0:
+            items = re.findall(pattern2,text)
+            id = items[0].split('"')[1]
+        else:
+            id = items[0].split('"')[1]
         print(id)
         return id
