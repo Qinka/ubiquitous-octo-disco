@@ -24,6 +24,10 @@ def fetch_id (url):
             items = re.findall(pattern2,text)
             id = items[0].split('"')[1]
         else:
-            id = items[0].split('"')[1]
+            str = items[0].split('"')
+            if str[1] == 'videoCenterId':
+                id = str[3]
+            else:
+                id = str[1]
         print(id)
         return id
